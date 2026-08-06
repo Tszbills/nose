@@ -1,0 +1,50 @@
+body {
+    background-color: #1f1f1f;
+    color: white;
+}
+
+.Menu {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+
+
+
+.Menu a {
+    text-decoration: none;
+    background-color: #ee0a0a;
+    color: rgb(0, 0, 0);
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+}
+
+.Menu :hover {
+    transform: scale(1.05);
+}
+
+header hr {
+    width: 70%;
+    margin: 25px auto 0;
+}
+
+.encabezado {
+    width: 25px;
+}
+
+
+li {
+    margin-bottom: 15px;
+}
+
+
+footer ul li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 12px;
+    white-space: nowrap;
+}
