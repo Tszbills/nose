@@ -14,7 +14,7 @@ body {
 
 .Menu a {
     text-decoration: none;
-    background-color: #ee0a0a;
+    background-color: #61dee7;
     color: rgb(0, 0, 0);
     padding: 12px 25px;
     border-radius: 5px;
@@ -31,8 +31,15 @@ header hr {
     margin: 25px auto 0;
 }
 
-.encabezado {
-    width: 25px;
+.pie-pagina {
+    padding: 20px 40px;
+    margin-top: 40px;
+    background-color: gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 
@@ -47,4 +54,18 @@ footer ul li {
     gap: 8px;
     margin-bottom: 12px;
     white-space: nowrap;
+    color: black;
+}
+
+
+.black {
+    color: #1f1f1f;
+}
+
+footer {
+    background-color: whitesmoke;
+}
+
+h2 {
+    color: #61deee;
 }
