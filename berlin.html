@@ -1,94 +1,113 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Viajes por el mundo </title>
+    <title>Berlin - Guía de Viaje | Viajes por el Mundo</title>
     <link rel="stylesheet" href="./CSS/style.css">
 </head>
 
 <body>
-    <a href="http://127.0.0.1:3000/index.html?vscode-livepreview=true"></a>
     <header>
         <nav class="Menu">
-            <a href="http://127.0.0.1:3000/index.html?vscode-livepreview=true"> Home</a>
-            <a href="#Berlin"> Berlin </a>
-            <a href="http://127.0.0.1:3000/brandeburgo.html?vscode-livepreview=true"> Brandeburgo </a>
-            <a href="http://127.0.0.1:3000/alexanderplatz.html?vscode-livepreview=true"> Alexanderplatz </a>
+            <a href="index.html">Home</a>
+            <a href="berlin.html" class="active">Berlin</a>
+            <a href="brandeburgo.html">Brandeburgo</a>
+            <a href="alexanderplatz.html">Alexanderplatz</a>
         </nav>
-        <hr>
     </header>
+
     <main>
         <section id="Berlin">
-            <div class="Algo">
-                <h2> Berlin</h2>
-                <p> Berlín es una de las capitales más vibrantes, cargadas de historia y culturalmente diversas de
-                    Europa.
-                    Esta guía recopila de forma detallada todo lo necesario para planificar una visita perfecta.</p>
-                <ul>
-                    <h2> monumentos historicos</h2>
-                    <li> Puerta de Brandeburgo: Antiguo símbolo de la división que hoy representa la unidad alemana.
-                    </li>
-                    <li> Edificio del Reichstag: Sede del Parlamento con su icónica cúpula de cristal transitable.</li>
-                    <li> Muro de Berlín (East Side Gallery): El tramo más largo en pie, convertido en galería de
-                        arteinteractiva.</li>
-                    <li> Monumento al Holocausto: Un laberinto de 2,711 bloques de hormigón que invita a la reflexión.
-                    </li>
-                    <li> Checkpoint Charlie: El punto de cruce más famoso de la Guerra Fría entre el este y el oeste.
-                    </li>
+            <div class="destino-encabezado">
+                <div class="destino-intro-content">
+                    <h2>Berlin</h2>
+                    <p class="intro-texto">Berlín es una de las capitales más vibrantes, cargadas de historia y culturalmente diversas de Europa. Esta guía recopila de forma detallada todo lo necesario para planificar una visita perfecta.</p>
+                    <div class="ficha-tecnica">
+                        <h3>🗺️ Ficha Técnica de la Localidad</h3>
+                        <ul>
+                            <li><strong>País:</strong> Alemania (Unión Europea)</li>
+                            <li><strong>Estado federado:</strong> Berlín (Ciudad-Estado)</li>
+                            <li><strong>Coordenadas geográficas:</strong> 52°31′12″N 13°24′18″E</li>
+                            <li><strong>Población:</strong> 3.85 millones de habitantes (Aproximadamente)</li>
+                            <li><strong>Idioma:</strong> Alemán (Inglés ampliamente hablado en zonas turísticas)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="destino-imagen-box">
+                    <img src="./img/berlin.jpeg" alt="Ciudad de Berlín" class="destino-foto">
+                </div>
+            </div>
 
-                    <h2> Museos y Centros Culturales</h2>
-                    <li> Isla de los Museos: Complejo declarado Patrimonio de la Humanidad que alberga cinco museos de
-                        renombre mundial.</li>
-                    <li> Museo de Pérgamo: Famoso por albergar el Altar de Pérgamo y la Puerta de Istar (actualmente
-                        bajo restauración por fases).</li>
-                    <li> Museo Nuevo (Neues Museum): Residencia oficial del célebre busto de la reina egipcia Nefertiti.
-                    </li>
-                    <li> Topografía del Terror: Museo situado en la antigua sede de la Gestapo sobre los crímenes nazis.
-                    </li>
+            <!-- Grilla 3x1 (3 columnas y 1 fila) con celdas de formato y tamaño uniforme usando fr -->
+            <div class="grid-3x1">
+                <div class="grid-celda">
+                    <h3>Monumentos Históricos</h3>
+                    <ul>
+                        <li><strong>Puerta de Brandeburgo:</strong> Antiguo símbolo de la división que hoy representa la unidad alemana.</li>
+                        <li><strong>Edificio del Reichstag:</strong> Sede del Parlamento con su icónica cúpula de cristal transitable.</li>
+                        <li><strong>Muro de Berlín (East Side Gallery):</strong> El tramo más largo en pie, convertido en galería de arte interactiva.</li>
+                        <li><strong>Monumento al Holocausto:</strong> Un laberinto de 2,711 bloques de hormigón que invita a la reflexión.</li>
+                        <li><strong>Checkpoint Charlie:</strong> El punto de cruce más famoso de la Guerra Fría entre el este y el oeste.</li>
+                    </ul>
+                </div>
 
-                    <h2> Datos Prácticos para el Viajero</h2>
-                    <li> Transporte Público: Red integrada de metros (U-Bahn), trenes urbanos (S-Bahn), tranvías y
-                        autobuses muy eficientes.</li>
-                    <li> Berlín WelcomeCard: Tarjeta turística que ofrece transporte ilimitado y descuentos de hasta el
-                        50% en atracciones.</li>
-                    <li> Mejor Época para Viajar: De mayo a septiembre por el clima templado, o diciembre para ver los
-                        mercados navideños. </li>
-                    <li> Topografía del Terror: Museo situado en la antigua sede de la Gestapo sobre los crímenes nazis.
-                    </li>
+                <div class="grid-celda">
+                    <h3>Museos y Centros Culturales</h3>
+                    <ul>
+                        <li><strong>Isla de los Museos:</strong> Complejo declarado Patrimonio de la Humanidad que alberga cinco museos de renombre mundial.</li>
+                        <li><strong>Museo de Pérgamo:</strong> Famoso por albergar el Altar de Pérgamo y la Puerta de Istar (actualmente bajo restauración por fases).</li>
+                        <li><strong>Museo Nuevo (Neues Museum):</strong> Residencia oficial del célebre busto de la reina egipcia Nefertiti.</li>
+                        <li><strong>Topografía del Terror:</strong> Museo situado en la antigua sede de la Gestapo sobre los crímenes nazis.</li>
+                    </ul>
+                </div>
 
-                    <h2> 🗺️ Ficha Técnica de la Localidad (Para la Barra Lateral o Encabezado)</h2>
-                    <li> País: Alemania (Unión Europea)</li>
-                    <li> Estado federado: Berlín (Ciudad-Estado)</li>
-                    <li> Coordenadas geográficas: 52°31′12″N 13°24′18″E</li>
-                    <li> Población: 3.85 millones de habitantes (Aproximadamente)</li>
-                    <li> Idioma: Alemán (Inglés ampliamente hablado en zonas turísticas)</li>
-                    <img src="./img/berlin.jpeg" alt="berlin">
-                </ul>
-
+                <div class="grid-celda">
+                    <h3>Datos Prácticos para el Viajero</h3>
+                    <ul>
+                        <li><strong>Transporte Público:</strong> Red integrada de metros (U-Bahn), trenes urbanos (S-Bahn), tranvías y autobuses muy eficientes.</li>
+                        <li><strong>Berlín WelcomeCard:</strong> Tarjeta turística que ofrece transporte ilimitado y descuentos de hasta el 50% en atracciones.</li>
+                        <li><strong>Mejor Época para Viajar:</strong> De mayo a septiembre por el clima templado, o diciembre para ver los mercados navideños.</li>
+                        <li><strong>Consejos Clave:</strong> Reserva con anticipación entradas a museos principales y disfruta recorridos a pie con guías locales.</li>
+                    </ul>
+                </div>
+            </div>
         </section>
-        <hr>
     </main>
-    <footer>
-        <div class="encabezado">
-            <p>2026 redes sociale</p>
-            <ul>
-                <li>
-                    <img src="./img/instagram.gif" alt="instagram" width="20px" height="auto">:
-                    <span>@Nose we</span>
-                </li>
-                <li>
-                    <img src="./img/tiktok.webp" alt="tiktok" width="20px" height="auto">:
-                    <span>@Nose we</span>
-                </li>
-                <li>
-                    <span>Whatsapp: +596 881 5466-3222</span>
-                </li>
-            </ul>
+
+    <footer class="pie-pagina">
+        <div class="footer-container">
+            <div class="footer-col footer-left">
+                <span class="footer-brand">Viajes por el Mundo</span>
+            </div>
+            <div class="footer-col footer-center">
+                <p class="copyright">&copy; 2026 Viajes por el Mundo. Todos los derechos reservados.</p>
+            </div>
+            <div class="footer-col footer-right">
+                <ul class="redes-sociales">
+                    <li>
+                        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" title="Instagram">
+                            <img src="./img/instagram.gif" alt="Instagram">
+                            <span>@Nose we</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer" title="TikTok">
+                            <img src="./img/tiktok.webp" alt="TikTok">
+                            <span>@Nose we</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://wa.me/59688154663222" target="_blank" rel="noopener noreferrer" title="WhatsApp">
+                            <img src="./img/wsp.gif" alt="WhatsApp">
+                            <span>+596 881 5466-3222</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </footer>
-
 </body>
 
 </html>

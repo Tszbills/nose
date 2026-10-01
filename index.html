@@ -1,72 +1,101 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Viajes por el mundo </title>
+    <title>Viajes por el Mundo - Turismo en Alemania</title>
     <link rel="stylesheet" href="./CSS/style.css">
 </head>
 
 <body>
     <header>
         <nav class="Menu">
-            <a href="http://127.0.0.1:3000/index.html?vscode-livepreview=true"> Home</a>
-            <a href="http://127.0.0.1:3000/berlin.html?vscode-livepreview=true"> Berlin</a>
-            <a href="http://127.0.0.1:3000/brandeburgo.html?vscode-livepreview=true"> Brandeburgo </a>
-            <a href="http://127.0.0.1:3000/alexanderplatz.html?vscode-livepreview=true"> Alexanderplatz </a>
+            <a href="index.html" class="active">Home</a>
+            <a href="berlin.html">Berlin</a>
+            <a href="brandeburgo.html">Brandeburgo</a>
+            <a href="alexanderplatz.html">Alexanderplatz</a>
         </nav>
-        <hr>
     </header>
+
     <main>
-        <section id="Home">
-            <h2> inicio </h2>
-            <p> Bienvenido a nuestra empresa de turismo especialidaza para viajes de alemania.</p>
+        <section id="Home" class="home-hero">
+            <h1>Viajes por el Mundo</h1>
+            <h2>Especialistas en Turismo por Alemania</h2>
+            <p>Bienvenido a nuestra empresa de turismo especializada en viajes por Alemania. Descubre la historia viva de Europa, sus monumentos más emblemáticos y la riqueza cultural de sus rincones más extraordinarios.</p>
         </section>
 
-        <section id="Berlin">
-            <h2> Berlin</h2>
-            <p> Visitar los restos del Muro de Berlín es una de las experiencias más impactantes e históricas que puedes
-                vivir en Europa.</p>
-            <p> Construido en 1961 y derribado en 1989, esta estructura de 155 kilómetros dividió trágicamente la ciudad
-                en dos bloques ideológicos: el comunista (este) y el capitalista (oeste).</p>
+        <section id="Destinos">
+            <h2 class="destinos-seccion-titulo">Nuestros Destinos Destacados</h2>
+            <div class="home-cards-grid">
+                <article class="home-card" id="Berlin">
+                    <div class="home-card-img-wrapper">
+                        <img src="./img/berlin.jpeg" alt="Muro de Berlín">
+                    </div>
+                    <div class="home-card-body">
+                        <h3>Berlin</h3>
+                        <p>Visitar los restos del Muro de Berlín es una de las experiencias más impactantes e históricas que puedes vivir en Europa.</p>
+                        <p>Construido en 1961 y derribado en 1989, esta estructura de 155 kilómetros dividió trágicamente la ciudad en dos bloques ideológicos: el comunista (este) y el capitalista (oeste).</p>
+                    </div>
+                </article>
 
-        </section>
+                <article class="home-card" id="Brandeburgo">
+                    <div class="home-card-img-wrapper">
+                        <img src="./img/Brandeburgo.jpeg" alt="Puerta de Brandeburgo">
+                    </div>
+                    <div class="home-card-body">
+                        <h3>Brandeburgo</h3>
+                        <p>La Puerta de Brandeburgo (Brandenburger Tor) es el símbolo absoluto de Berlín y de la reunificación de Alemania.</p>
+                        <p>Construida entre 1788 y 1791 como una de las antiguas puertas de entrada a la ciudad, su significado cambió drásticamente durante la Guerra Fría.</p>
+                    </div>
+                </article>
 
-        <section id="Brandeburgo">
-            <h2> Brandeburgo</h2>
-            <p> La Puerta de Brandeburgo (Brandenburger Tor) es el símbolo absoluto de Berlín y de la reunificación de
-                Alemania.</p>
-            <p> Construida entre 1788 y 1791 como una de las antiguas puertas de entrada a la ciudad, su significado
-                cambió drásticamente durante la Guerra Fría.</p>
+                <article class="home-card" id="Alexanderplatz">
+                    <div class="home-card-img-wrapper">
+                        <img src="./img/Panorama_Berlin_SCH6057_c_Scholvien_OCV_300_DL_PPT_0.jpg.jpg" alt="Alexanderplatz">
+                    </div>
+                    <div class="home-card-body">
+                        <h3>Alexanderplatz</h3>
+                        <p>Para cualquier viajero que pise la capital alemana, la mítica Alexanderplatz (o simplemente "Alex", como la llaman los berlineses) es una parada obligatoria.</p>
+                        <p>Esta inmensa plaza peatonal no solo es el nudo de transporte más transitado de la ciudad, sino también un fascinante viaje en el tiempo al centro de Berlín.</p>
+                    </div>
+                </article>
+            </div>
         </section>
-
-        <section id="Alexanderplatz">
-            <h2> Alexanderplatz</h2>
-            <p> Para cualquier viajero que pise la capital alemana, la mítica Alexanderplatz (o simplemente "Alex", como
-                la llaman los berlineses) es una parada obligatoria</p>
-            <p> Esta inmensa plaza peatonal no solo es el nudo de transporte más transitado de la ciudad, sino también
-                un fascinante viaje en el tiempo. </p>
-            <p> Al caminar por ella, la imponente arquitectura monumental te transportará de inmediato a la época de la
-                Guerra Fría, cuando este lugar era el orgulloso centro del Berlín Oriental comunista.</p>
-        </section>
-        <hr>
     </main>
-    <footer>
-        <div class="encabezado">
-            <p class="black">2026 redes sociale</p>
-            <ul>
-                <li>
-                    <img src="./img/instagram.gif" alt="instagram" width="20px" height="auto">:
-                    <span>@Nose we</span>
-                </li>
-                <li>
-                    <span>Whatsapp: +596 881 5466-3222</span>
-                </li>
-            </ul>
+
+    <footer class="pie-pagina">
+        <div class="footer-container">
+            <div class="footer-col footer-left">
+                <span class="footer-brand">Viajes por el Mundo</span>
+            </div>
+            <div class="footer-col footer-center">
+                <p class="copyright">&copy; 2026 Viajes por el Mundo. Todos los derechos reservados.</p>
+            </div>
+            <div class="footer-col footer-right">
+                <ul class="redes-sociales">
+                    <li>
+                        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" title="Instagram">
+                            <img src="./img/instagram.gif" alt="Instagram">
+                            <span>@Nose we</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer" title="TikTok">
+                            <img src="./img/tiktok.webp" alt="TikTok">
+                            <span>@Nose we</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://wa.me/59688154663222" target="_blank" rel="noopener noreferrer" title="WhatsApp">
+                            <img src="./img/wsp.gif" alt="WhatsApp">
+                            <span>+596 881 5466-3222</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </footer>
-
 </body>
 
 </html>
