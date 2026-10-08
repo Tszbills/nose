@@ -22,9 +22,7 @@ main {
     padding: 20px 0;
 }
 
-/* =========================================
-   HEADER & NAVEGACIÓN
-========================================= */
+
 header {
     background-color: #141414;
     padding-top: 20px;
@@ -62,12 +60,9 @@ header {
 }
 
 header hr {
-    display: none; /* Reemplazado por borde estilizado */
+    display: none; 
 }
 
-/* =========================================
-   TITULOS Y TIPOGRAFIA
-========================================= */
 h1 {
     color: #ffffff;
     font-size: 2.2rem;
@@ -91,9 +86,7 @@ p {
     color: #cccccc;
 }
 
-/* =========================================
-   HOME (index.html) ESTILOS
-========================================= */
+
 .home-hero {
     text-align: center;
     background: linear-gradient(145deg, #222222, #181818);
@@ -213,9 +206,6 @@ p {
     color: #111111;
 }
 
-/* =========================================
-   PAGINAS DE DESTINO (Berlin, Brandeburgo, Alexanderplatz)
-========================================= */
 .destino-encabezado {
     display: grid;
     grid-template-columns: 1.25fr 0.75fr;
@@ -370,9 +360,7 @@ p {
     color: #ffffff;
 }
 
-/* =========================================
-   FOOTER (REDES A LA DERECHA, COPYRIGHT AL CENTRO)
-========================================= */
+
 .pie-pagina {
     background-color: #121212;
     border-top: 1px solid #2c2c2c;
@@ -466,9 +454,7 @@ p {
     display: inline-block;
 }
 
-/* =========================================
-   RESPONSIVIDAD
-========================================= */
+
 @media (max-width: 960px) {
     .home-cards-grid {
         grid-template-columns: repeat(2, 1fr);
@@ -508,17 +494,4 @@ p {
     }
 }
 
-@media (max-width: 640px) {
-    .home-cards-grid {
-        grid-template-columns: 1fr;
-    }
 
-    .Menu {
-        gap: 10px;
-    }
-
-    .Menu a {
-        padding: 8px 16px;
-        font-size: 0.85rem;
-    }
-}
