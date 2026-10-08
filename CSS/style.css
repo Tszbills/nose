@@ -288,10 +288,6 @@ p {
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
 }
 
-/* =========================================
-   GRILLA 3x1 (3 COLUMNAS, 1 FILA) REQUERIDA
-   Uso de fr para ancho y alto uniforme
-========================================= */
 .grid-3x1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
